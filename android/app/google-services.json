@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "713657911670",
+    "project_id": "hamazhcll",
+    "storage_bucket": "hamazhcll.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713657911670:android:afb49163c38e9ddc86d257",
+        "android_client_info": {
+          "package_name": "hamazh.auth.youssef.hamazh_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEhT08jn6QNz9rM5FdZxG2Y_BypWninRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713657911670:android:b50bd95c3c20304586d257",
+        "android_client_info": {
+          "package_name": "hamzah.auth.youssef.hamzah_auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEhT08jn6QNz9rM5FdZxG2Y_BypWninRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
