@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:hamazh_auth/utls/helper/extension.dart';
@@ -26,8 +25,9 @@ ThemeData lightTheme(BuildContext context) => ThemeData(
       elevatedButtonTheme: ElevatedButtonThemeData(
           style: ButtonStyle(
               alignment: Alignment.center,
-              backgroundColor:
-                  const MaterialStatePropertyAll( ColorsManger.pColor,),
+              backgroundColor: const MaterialStatePropertyAll(
+                ColorsManger.pColor,
+              ),
               textStyle: const MaterialStatePropertyAll(TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
@@ -43,37 +43,35 @@ ThemeData lightTheme(BuildContext context) => ThemeData(
               // backgroundColor: const MaterialStatePropertyAll(ColorsManger.primaryColors),
               padding: MaterialStatePropertyAll(EdgeInsets.symmetric(
                   vertical: context.height * .01, horizontal: 24)))),
-      primaryColor:  ColorsManger.pColor,
-
-  textTheme: const TextTheme(
-
-      displaySmall: TextStyle(
-          color: Colors.black,
-          fontWeight: WeightManger.regular,
-          fontSize: 12,
-          fontFamily: fontFamily),
-      displayLarge: TextStyle(
-        color: Colors.black,
-        fontSize: 16,
-        fontWeight: WeightManger.bold,
-        fontFamily: fontFamily,
-      ),
-      displayMedium: TextStyle(
-          color: Colors.black,
-          fontSize: 14,
-          fontFamily: fontFamily,
-          fontWeight: WeightManger.medium),
-      bodyLarge:TextStyle(
-          color: Colors.black,
-          fontSize: 32,
-          fontFamily: fontFamily,
-          fontWeight: WeightManger.black),
-      titleLarge: TextStyle(
-        color: Colors.black,
-        fontSize: 12,
-        fontFamily: fontFamily,
-        fontWeight: WeightManger.semiBold,
-      )),
+      primaryColor: ColorsManger.pColor,
+      textTheme: const TextTheme(
+          displaySmall: TextStyle(
+              color: Colors.black,
+              fontWeight: WeightManger.regular,
+              fontSize: 12,
+              fontFamily: fontFamily),
+          displayLarge: TextStyle(
+            color: Colors.black,
+            fontSize: 16,
+            fontWeight: WeightManger.bold,
+            fontFamily: fontFamily,
+          ),
+          displayMedium: TextStyle(
+              color: Colors.black,
+              fontSize: 14,
+              fontFamily: fontFamily,
+              fontWeight: WeightManger.medium),
+          bodyLarge: TextStyle(
+              color: Colors.black,
+              fontSize: 32,
+              fontFamily: fontFamily,
+              fontWeight: WeightManger.black),
+          titleLarge: TextStyle(
+            color: Colors.black,
+            fontSize: 12,
+            fontFamily: fontFamily,
+            fontWeight: WeightManger.semiBold,
+          )),
       progressIndicatorTheme:
-           const ProgressIndicatorThemeData(color: ColorsManger.pColor),
+          const ProgressIndicatorThemeData(color: ColorsManger.pColor),
     );

@@ -1,4 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:hamazh_auth/cuibt/auth_cuibt/auth_cuibt.dart';
+
+extension Cuibt on BuildContext {
+  AuthCuibt get appCuibt {
+    return read<AuthCuibt>();
+  }
+}
 
 extension Ispassword on String {
   bool get isPassword {
@@ -32,19 +40,15 @@ extension Isphone on String {
     }
   }
 }
+
 extension Height on BuildContext {
   double get height {
-    return MediaQuery
-        .of(this)
-        .size
-        .height;
+    return MediaQuery.of(this).size.height;
   }
 }
+
 extension Width on BuildContext {
   double get width {
-    return MediaQuery
-        .of(this)
-        .size
-        .width;
+    return MediaQuery.of(this).size.width;
   }
 }
