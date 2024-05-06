@@ -14,10 +14,10 @@ class AnimationNav extends PageRouteBuilder {
           ) =>
       page,
       transitionDuration: const Duration(
-        milliseconds: 400,
+        milliseconds: 600,
       ),
       reverseTransitionDuration: const Duration(
-        milliseconds: 400,
+        milliseconds: 600,
       ),
       transitionsBuilder: (
           BuildContext context,
