@@ -16,7 +16,7 @@ This project implements a robust multi-factor authentication (MFA) system levera
 
 - **End-to-End Encryption:**
   - Implements end-to-end encryption for sensitive user data storage and transmission.
-  - Leverages Firebase's cryptographic capabilities using algorithms like RSA.
+  - Leverages Firebase's cryptographic capabilities using algorithms like AES.
 
 ## Technologies Used
 
@@ -24,7 +24,7 @@ This project implements a robust multi-factor authentication (MFA) system levera
 - Auth 2.0: Integrated for seamless third-party authentication and authorization.
 - Firebase Firestore: For storing sensitive user data.
 - Firebase Cloud Functions: For implementing custom authentication triggers and backend logic.
-- Cryptographic Algorithms (RSA): Utilized for end-to-end encryption.
+- Cryptographic Algorithms (AES): Utilized for end-to-end encryption.
 
 ## Setup Instructions
 
